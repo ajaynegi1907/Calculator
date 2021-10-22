@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="keyboard"
+>
+  <button
+    className="btn btn-action"
+    onClick={[Function]}
+  >
+    AC
+  </button>
+  <button
+    className="btn btn-action"
+    onClick={[Function]}
+  >
+    CE
+  </button>
+  <button
+    className="btn btn-operator"
+    onClick={[Function]}
+  >
+    %
+  </button>
+  <button
+    className="btn btn-operator"
+    onClick={[Function]}
+  >
+    /
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    7
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    8
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    9
+  </button>
+  <button
+    className="btn btn-operator"
+    onClick={[Function]}
+  >
+    *
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    4
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    5
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    6
+  </button>
+  <button
+    className="btn btn-operator"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    1
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    2
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    3
+  </button>
+  <button
+    className="btn btn-operator"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    className="btn btn-numeric zero"
+    onClick={[Function]}
+  >
+    0
+  </button>
+  <button
+    className="btn btn-numeric"
+    onClick={[Function]}
+  >
+    .
+  </button>
+  <button
+    className="btn btn-calculate"
+    onClick={[Function]}
+  >
+    =
+  </button>
+</div>
+`;

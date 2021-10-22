@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="history-container"
+>
+  <div
+    className="history-close-btn"
+    onClick={[MockFunction]}
+  >
+    X
+  </div>
+  <div
+    className="history-body"
+  >
+    <div
+      className="history-record"
+      key="0"
+      onClick={[Function]}
+    >
+      <div
+        className="expression"
+      >
+        3*5
+      </div>
+      <div
+        className="result"
+      >
+         
+        8
+      </div>
+    </div>
+    <div
+      className="history-record"
+      key="1"
+      onClick={[Function]}
+    >
+      <div
+        className="expression"
+      >
+        4/3
+      </div>
+      <div
+        className="result"
+      >
+         
+        1.33
+      </div>
+    </div>
+  </div>
+  <button
+    className="clear-history-btn"
+    onClick={[Function]}
+  >
+    Clear all
+  </button>
+</div>
+`;

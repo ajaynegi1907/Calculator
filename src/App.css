@@ -1,0 +1,161 @@
+:root{
+  --shadow-upper: 6px 6px 16px 0 rgba(5, 5, 5, 0.438);
+  --shadow-lower: -6px -6px 16px 0 rgba(235, 223, 223, 0.226);
+}
+
+
+body{
+  background-color: rgb(51, 48, 48);
+  padding: auto;
+  margin: auto;
+}
+.App {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 20px;
+width: 350px;
+height: 550px;
+margin: 40px auto;
+padding: 40px 24px 32px;
+box-shadow: var(--shadow-upper), var(--shadow-lower);
+}
+
+.display{
+  color: white;
+  width: 100%;
+  height: 150px;
+  overflow-y: auto;
+  overflow-x: auto;
+  text-align: right;
+  box-shadow: var(--shadow-upper), var(--shadow-lower);
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.2em;
+}
+
+.keyboard .btn {
+  border: none;
+  background-color: rgb(51, 48, 48);
+  color: black;
+  cursor: grab;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  box-shadow: var(--shadow-upper), var(--shadow-lower);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.keyboard .btn-numeric{
+  color: white;
+}
+
+.keyboard .btn-action{
+  color: grey;
+}
+
+.keyboard .btn-operator {
+  color: green
+}
+
+.keyboard .btn-calculate {
+  background-color: green;
+  color: black;
+}
+
+.keyboard .zero {
+  grid-column: 1/3;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.display-result {
+ font-size: 16px;
+ color: gray;
+ padding: 8px;
+}
+
+.display-expression {
+  padding: 8px;
+}
+
+.history-container {
+  background-color: rgb(134, 120, 120);
+  z-index: 1;
+  position: absolute;
+  left: inherit;
+  margin: auto;
+  padding: 32px 16px;
+  height:  500px;
+  width: 260px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+.history-close-btn {
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+.history-record{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 5px;
+  margin: 16px;
+  box-shadow: var(--shadow-upper), var(--shadow-lower);
+}
+.history-record .expression {
+  font-size: 16px;
+  color: rgb(245, 228, 228);
+}
+
+.history-record .result {
+  font-size: 14px;
+  color: green;
+}
+
+.show-history-btn{
+  border: none;
+  background-color: rgb(51, 48, 48);
+  color: green;
+  border-radius: 16px;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  margin: 52px auto;
+  box-shadow: var(--shadow-upper), var(--shadow-lower);
+}
+
+.clear-history-btn {
+  border: none;
+  width: 100%;
+  text-align: center;
+  background-color: green;
+  box-shadow: var(--shadow-upper), var(--shadow-lower);
+  border-radius: 16px;
+  font-size: 24px;
+  margin: 30px auto;
+}
+
+.history-body {
+  overflow-y: auto;
+  overflow-x: auto;
+}

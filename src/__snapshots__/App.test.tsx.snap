@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <button
+    className="show-history-btn"
+    onClick={[Function]}
+  >
+    History 
+  </button>
+  <DisplayContainer />
+  <Keyboard
+    calculateResultClick={[Function]}
+    clearAll={[Function]}
+    onTokenButtonClick={[Function]}
+    removePreviousToken={[Function]}
+  />
+</div>
+`;
